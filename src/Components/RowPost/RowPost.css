@@ -1,0 +1,50 @@
+.rowcardmain{
+    margin-top: 0px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.rowcard{
+    margin-top: -150px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+h3{
+    margin-left: 20px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.poster{
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    margin-right: 5px ;
+    transition: 0.2s;
+}
+
+.poster:hover{
+    transition:0.2s ;
+    transform: scale(1.2);
+    transition-delay:0.3s;
+}
+.poster::after{
+    
+    content: 'hai';
+    color: white;
+    font-size: 200px;
+    z-index: 10;
+}
+
